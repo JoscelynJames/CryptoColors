@@ -12,7 +12,7 @@ contract ColorsERC721 is ERC721Token, Ownable {
   mapping(uint256 => uint256) tokenToPriceMap;
 
   function ColorsERC721() public {
-
+    
   }
 
   function getName() public pure returns(string) {
